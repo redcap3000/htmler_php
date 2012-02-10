@@ -1,4 +1,4 @@
-
+<?php
 /*
 	Htmler
 	Ronaldo Barbachano
@@ -63,7 +63,7 @@ class htmler{
 					// div__#div class#__#div id#(-inner-)
 					return self::html_container($arguments[0],$name[1],NULL,$name[0]);
 					break;
-				case default:
+				default:
 					// div__#div class#__#div id#(-inner-)
 					return self::html_container($arguments[0],$name[1],$name[2],$name[0]);
 					break;	
